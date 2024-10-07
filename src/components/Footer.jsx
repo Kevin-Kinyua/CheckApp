@@ -25,8 +25,8 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
                 <ul className='flex flex-col gap-2 text-gray-600'>
-                    <li>+91 8564125856</li>
-                    <li>prescripto@gmail.com</li>
+                    <li>+254 723 052 500</li>
+                    <li>info@checkapp.co.ke</li>
                 </ul>
             </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
         {/* -------CopyRight Text ------------ */}
         <div>
             <hr />
-            <p className='py-5 text-sm text-center'>Copyright 2024@ Prescripto - All Right Reserved.</p>
+            <p className='py-5 text-sm text-center'>Copyright 2024@ CheckApp Medicare - All Right Reserved.</p>
         </div>
 
     </div>

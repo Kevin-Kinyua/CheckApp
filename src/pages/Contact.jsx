@@ -16,8 +16,8 @@ const Contact = () => {
             <div className='flex flex-col justify-center items-start gap-6'>
               <p className='font-semibold text-lg text-gray-600 '>Our Office</p>
               <p className='text-gray-500'>146012 Mohali <br />Suite 50,Punjab,India</p>
-              <p className='text-gray-500'>Tel : +91 9856325412 <br />Email: prescripto@gmail.com</p> 
-              <p className='font-semibold text-lg text-gray-600 '>Careers at PRESCRIPTO</p>
+              <p className='text-gray-500'>Tel : +91 9856325412 <br />Email: CheckApp Medicare@gmail.com</p> 
+              <p className='font-semibold text-lg text-gray-600 '>Careers at CheckApp Medicare</p>
               <p className='text-gray-500'>Learm more about our teams and job openings.</p>
               <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Job</button>
             </div>
