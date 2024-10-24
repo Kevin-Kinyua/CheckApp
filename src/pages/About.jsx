@@ -10,12 +10,12 @@ const About = () => {
       </div>
 
       <div className='my-10 flex flex-col md:flex-row gap-12'>
-        <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
+        <img className='w-full md:max-w-[260px]' src={assets.about_image_2} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores culpa, repellat debitis cum minus neque animi excepturi voluptatum amet laborum?</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur inventore sequi ipsa repellendus accusantium, exercitationem dolore nemo quas, laboriosam illo qui. Qui provident fugit porro.</p>
+          <p>At CheckApp, we are dedicated to making healthcare more accessible and convenient for everyone. Our platform connects patients with <u>trusted healthcare professionals</u>, allowing them to easily book appointments at a time and location that works for them. With a user-friendly interface and a vast network of doctors across multiple specialties, we aim to provide a seamless experience for both patients and practitioners. </p>
+         
           <b className='text-gray-800'>Our Vision</b>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, molestias! Explicabo, ipsam rem. Aperiam molestias numquam voluptas magni aspernatur itaque fugit nisi ad ipsum veritatis.</p>
+          <p>Our Vision is to empower individuals to take control of their health by simplifying the process of finding and scheduling medical care.</p>
         </div>
       </div>
 
