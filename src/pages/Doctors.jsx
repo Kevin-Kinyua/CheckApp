@@ -5,6 +5,7 @@ import { AppContext } from '../context/AppContext';
 const Doctors = () => {
 
   const { speciality } = useParams();
+  const { hospital } = useParams();
   const { doctors } = useContext(AppContext)
   const [filterDoc,setFilterDoc] = useState([])
   const [showFilter,setShowFilter] = useState(false)
@@ -20,7 +21,7 @@ const Doctors = () => {
 
   useEffect(()=>{
     applyFilter();
-  },[doctors,speciality])
+  },[doctors,speciality,hospital])
 
   return (
     <div>
@@ -46,6 +47,8 @@ const Doctors = () => {
                       </div>
                       <p className='text-gray-900 text-lg font-medium'>{item.name}</p>
                       <p className='text-gray-600 text-sm'>{item.speciality} </p>
+                      <p className='text-gray-600 text-sm'>{item.hospital} </p>
+
                   </div>
               </div>
   

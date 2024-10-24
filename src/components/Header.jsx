@@ -1,24 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-// import FlickeringGrid from "/components/magicui/flickering-grid";
 
-
-// export function FlickeringGridDemo() {
-//   return (
-//     <div className="relative h-[500px] rounded-lg w-full bg-background overflow-hidden border">
-//       <FlickeringGrid
-//         className="z-0 absolute inset-0 size-full"
-//         squareSize={4}
-//         gridGap={6}
-//         color="#6B7280"
-//         maxOpacity={0.5}
-//         flickerChance={0.1}
-//         height={800}
-//         width={800}
-//       />
-//     </div>
-//   );
-// }
 const Header = () => {
   return (
     <div className='flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20'>

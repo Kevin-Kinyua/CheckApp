@@ -299,3 +299,57 @@ export const doctors = [
         }
     },
 ]
+
+export const hospitalData = [
+    {
+        hospital: 'Kenyatta National Hospital (KNH)',
+    },
+    {
+        hospital: 'Nairobi Hospital'
+    },
+    {
+        hospital: 'Nairobi Womens Hospital'
+    },
+    {
+        hospital: 'Coptic Hospital'
+    },
+    {
+        hospital: 'Karen Hospital'
+    },
+    {
+        hospital: 'Nairobi South Hospital'
+    },
+    {
+        hospital: 'Nairobi West Hospital'
+    },
+    {
+        hospital: 'Mater MisericordiaeHospital'
+    },
+    {
+        hospital: 'Aga Khan University Hospital Medical Center'
+    },
+    {
+        hospital: 'Avenue Healthcare Hospital'
+    },
+    {
+        hospital: 'M.P. Shah Hospital'
+    },
+    {
+        hospital: 'Mediheal Group of Hospitals'
+    },
+    {
+        hospital: 'Getrudes Childrens Hospital'
+    },
+    {
+        hospital: 'Garden Specialist Hospital'
+    },
+    {
+        hospital: 'Care Hospital'
+    },
+    {
+        hospital: 'Radiant Group of Hospitals'
+    },
+    {
+        hospital: 'Mimosa Cottage Hospital'
+    },
+]

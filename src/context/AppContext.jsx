@@ -5,7 +5,12 @@ export const AppContext = createContext();
 
 const AppContextProvider = (props) =>{
 
-    const currencySymbol = '₹';
+    // const currencySymbol = '₹';
+    // const currencySymbol = '$';
+    // const currencySymbol = '£';
+    // const currencySymbol = '€';
+    // const currencySymbol = '¥';
+    const currencySymbol = 'KES ';
 
     const value = {
         doctors,
