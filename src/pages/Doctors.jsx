@@ -35,7 +35,20 @@ const Doctors = () => {
           <p onClick={()=> speciality === 'Pediatricians' ? navigate('/doctors') : navigate('/doctors/Pediatricians')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Pediatricians" ? "bg-indigo-100 text-black" : ""}`}>Pediatricians</p>
           <p onClick={()=> speciality === 'Neurologist' ? navigate('/doctors') : navigate('/doctors/Neurologist')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Neurologist" ? "bg-indigo-100 text-black" : ""}`}>Neurologist</p>
           <p onClick={()=> speciality === 'Gastroenterologist' ? navigate('/doctors') : navigate('/doctors/Gastroenterologist')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Gastroenterologist" ? "bg-indigo-100 text-black" : ""}`}>Gastroenterologist</p>
+          <br /><br />
+          <h1>Hospitals</h1>
+          <div className={`flex-col gap-4 text-sm text-gray-600 ${showFilter ? 'flex' : 'hidden sm:flex'}`}>
+          <p onClick={()=> hospital === 'Kenyatta National Hospital' ? navigate('/doctors') : navigate('/doctors/kenyatta-national-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Kenyatta National Hospital" ? "bg-indigo-100 text-black" : ""}`}>Kenyatta National Hospital</p>
+          <p onClick={()=> hospital === 'Nairobi Hospital' ? navigate('/doctors') : navigate('/doctors/nairobi-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Nairobi Hospital" ? "bg-indigo-100 text-black" : ""}`}>Nairobi Hospital</p>
+          <p onClick={()=> hospital === 'Coptic Hospital' ? navigate('/doctors') : navigate('/doctors/Coptic-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Coptic Hospital" ? "bg-indigo-100 text-black" : ""}`}>Coptic Hospital</p>
+          <p onClick={()=> hospital === 'Nairobi Women`s Hospital' ? navigate('/doctors') : navigate('/doctors/nairobi-womens')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Nairobi Women`s Hospital" ? "bg-indigo-100 text-black" : ""}`}>Nairobi Women`s Hospital</p>
+          <p onClick={()=> hospital === 'Karen Hospital' ? navigate('/doctors') : navigate('/doctors/karen-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Karen Hospital" ? "bg-indigo-100 text-black" : ""}`}>Karen Hospital</p>
+          <p onClick={()=> hospital === 'Nairobi West Hospital' ? navigate('/doctors') : navigate('/doctors/nairobi-west-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Nairobi West Hospital" ? "bg-indigo-100 text-black" : ""}`}>Nairobi West Hospital</p>
+          <p onClick={()=> hospital === 'Getrude`s Hospital' ? navigate('/doctors') : navigate('/doctors/getrudes-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Getrude`s Hospital" ? "bg-indigo-100 text-black" : ""}`}>Getrude`s Hospital</p>
+          <p onClick={()=> hospital === 'Aga Khan University Hospital' ? navigate('/doctors') : navigate('/doctors/aga-khan-university-hospital')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${hospital === "Aga Khan University Hospital" ? "bg-indigo-100 text-black" : ""}`}>Aga Khan University Hospital</p>
         </div>
+        </div>
+        
         <div className='w-full grid grid-cols-auto gap-4 gap-y-6'>
           {
              filterDoc.map((item,index)=>(

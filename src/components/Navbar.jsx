@@ -9,7 +9,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     const [showMenu,setShowMenu] = useState(false);
-    const [token , setToken] = useState(true);
+    const [token , setToken] = useState(true); //Displays if we are logged in
 
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
@@ -23,6 +23,10 @@ const Navbar = () => {
                 <li className='py-1'>All Doctors</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
+            {/* <NavLink to='/doctors'>
+                <li className='py-1'>Hospitals</li>
+                <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
+            </NavLink> */}
             <NavLink to='/about'>
                 <li className='py-1'>About</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />

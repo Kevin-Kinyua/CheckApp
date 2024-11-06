@@ -1,7 +1,7 @@
 import appointment_img from './appointment_img.png'
 import header_img from './assets/images/hero-img04.png'
 import group_profiles from './group_profiles.png'
-import profile_pic from './profile_pic.png'
+import profile_pic from './profile_pic.jpeg'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
 import about_image_2 from './about_img.jpg'
@@ -15,7 +15,7 @@ import arrow_icon from './arrow_icon.svg'
 import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
-import razorpay_logo from './razorpay_logo.png'
+// import razorpay_logo from './razorpay_logo.png'
 import doc1 from './doc1.png'
 import doc2 from './doc2.png'
 import doc3 from './doc3.png'
@@ -37,6 +37,16 @@ import General_physician from './General_physician.svg'
 import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
+import ExcitedDoc from './assets/images/excited doctor.png'
+
+import KNH from './assets/Hosp logos/knh.png'
+import NRB_HOSP from './assets/Hosp logos/nrb-hospital.png'
+import NRB_WEST from './assets/Hosp logos/nrb-west.jpg'
+import KAREN from './assets/Hosp logos/karen.png'
+import COPTIC from './assets/Hosp logos/coptic.png'
+import NRB_WOMENS from './assets/Hosp logos/nrb-womens.png'
+import GETRUDES from './assets/Hosp logos/getrudes.png'
+import AGA_KHAN from './assets/Hosp logos/aga-khan-university-hospital.png'
 
 
 export const assets = {
@@ -57,7 +67,17 @@ export const assets = {
     dropdown_icon,
     upload_icon,
     stripe_logo,
-    razorpay_logo
+    // razorpay_logo,
+    KNH,
+    NRB_HOSP,
+    NRB_WEST,
+    NRB_WOMENS,
+    GETRUDES,
+    COPTIC,
+    KAREN,
+    AGA_KHAN,
+    ExcitedDoc
+
 }
 
 export const specialityData = [
@@ -302,54 +322,62 @@ export const doctors = [
 
 export const hospitalData = [
     {
-        hospital: 'Kenyatta National Hospital (KNH)',
+        // hospital: 'Kenyatta National Hospital (KNH)',
+        image: KNH
     },
     {
-        hospital: 'Nairobi Hospital'
+        // hospital: 'Nairobi Hospital',
+        image: NRB_HOSP
     },
     {
-        hospital: 'Nairobi Womens Hospital'
+        // hospital: 'Nairobi Women`s Hospital',
+        image: NRB_WOMENS
     },
     {
-        hospital: 'Coptic Hospital'
+        // hospital: 'Coptic Hospital',
+        image: COPTIC
     },
     {
-        hospital: 'Karen Hospital'
+        // hospital: 'Karen Hospital',
+        image: KAREN
     },
+    // {
+    //     hospital: 'Nairobi South Hospital'
+    // },
     {
-        hospital: 'Nairobi South Hospital'
+        // hospital: 'Nairobi West Hospital',      
+        image: NRB_WEST
     },
+    // {
+    //     hospital: 'Mater MisericordiaeHospital'
+    // },
     {
-        hospital: 'Nairobi West Hospital'
+        // hospital: 'Aga Khan University Hospital Medical Center',
+        image: AGA_KHAN
     },
+    // {
+    //     hospital: 'Avenue Healthcare Hospital'
+    // },
+    // {
+    //     hospital: 'M.P. Shah Hospital'
+    // },
+    // {
+    //     hospital: 'Mediheal Group of Hospitals'
+    // },
     {
-        hospital: 'Mater MisericordiaeHospital'
+        // hospital: 'Getrudes Childrens Hospital',
+        image: GETRUDES
     },
-    {
-        hospital: 'Aga Khan University Hospital Medical Center'
-    },
-    {
-        hospital: 'Avenue Healthcare Hospital'
-    },
-    {
-        hospital: 'M.P. Shah Hospital'
-    },
-    {
-        hospital: 'Mediheal Group of Hospitals'
-    },
-    {
-        hospital: 'Getrudes Childrens Hospital'
-    },
-    {
-        hospital: 'Garden Specialist Hospital'
-    },
-    {
-        hospital: 'Care Hospital'
-    },
-    {
-        hospital: 'Radiant Group of Hospitals'
-    },
-    {
-        hospital: 'Mimosa Cottage Hospital'
-    },
+    // {
+    //     hospital: 'Garden Specialist Hospital'
+    // },
+    // {
+    //     hospital: 'Care Hospital'
+    // },
+    // {
+    //     hospital: 'Radiant Group of Hospitals'
+    // },
+    // {
+    //     hospital: 'Mimosa Cottage Hospital'
+    // },
 ]

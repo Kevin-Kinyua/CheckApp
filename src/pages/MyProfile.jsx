@@ -4,16 +4,16 @@ import { assets } from '../assets/assets'
 const MyProfile = () => {
 
   const [userData,setUserData] = useState({
-    name: "Saurab Sithkar",
+    name: "Kevin Kinyua",
     image:assets.profile_pic,
-    email : 'sithkar@gmail.com',
-    phone : '+91 985642152',
+    email : 'w.kevinkinyua@gmail.com',
+    phone : '+254 723 052 500',
     address:{
-        line1: '57th Cross, Mohali',
-        line2: 'Circle, Church Road ,Punjab'
+        line1: 'Ngong Road',
+        line2: 'Nairobi, Kenya'
     },
     gender:'Male',
-    dob:'2002-06-25'
+    dob:'1991-01-21'
   })
 
   const [isEdit,setIsEdit] = useState(false)
