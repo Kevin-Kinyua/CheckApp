@@ -113,10 +113,11 @@ export const doctors = [
         name: 'Dr. Richard James',
         image: doc1,
         speciality: 'General physician',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '17th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -127,10 +128,11 @@ export const doctors = [
         name: 'Dr. Emily Larson',
         image: doc2,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '3 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '27th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -141,10 +143,11 @@ export const doctors = [
         name: 'Dr. Sarah Patel',
         image: doc3,
         speciality: 'Dermatologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '1 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '37th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -155,10 +158,11 @@ export const doctors = [
         name: 'Dr. Christopher Lee',
         image: doc4,
         speciality: 'Pediatricians',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '2 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '47th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -169,10 +173,11 @@ export const doctors = [
         name: 'Dr. Jennifer Garcia',
         image: doc5,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '57th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -183,7 +188,7 @@ export const doctors = [
         name: 'Dr. Andrew Williams',
         image: doc6,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
@@ -197,10 +202,11 @@ export const doctors = [
         name: 'Dr. Christopher Davis',
         image: doc7,
         speciality: 'General physician',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '17th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -211,10 +217,11 @@ export const doctors = [
         name: 'Dr. Timothy White',
         image: doc8,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '3 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '27th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -225,10 +232,11 @@ export const doctors = [
         name: 'Dr. Ava Mitchell',
         image: doc9,
         speciality: 'Dermatologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '1 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '37th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -239,10 +247,11 @@ export const doctors = [
         name: 'Dr. Jeffrey King',
         image: doc10,
         speciality: 'Pediatricians',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '2 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '47th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -253,10 +262,11 @@ export const doctors = [
         name: 'Dr. Zoe Kelly',
         image: doc11,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '57th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -267,10 +277,11 @@ export const doctors = [
         name: 'Dr. Patrick Harris',
         image: doc12,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '57th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -281,10 +292,11 @@ export const doctors = [
         name: 'Dr. Chloe Evans',
         image: doc13,
         speciality: 'General physician',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '17th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -295,10 +307,11 @@ export const doctors = [
         name: 'Dr. Ryan Martinez',
         image: doc14,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '3 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '27th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
@@ -309,10 +322,11 @@ export const doctors = [
         name: 'Dr. Amelia Hill',
         image: doc15,
         speciality: 'Dermatologist',
-        degree: 'MBBS',
+        qualifications: 'MBBS',
         experience: '1 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
+        hospital: 'Nairobi Hospital',
         address: {
             line1: '37th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
